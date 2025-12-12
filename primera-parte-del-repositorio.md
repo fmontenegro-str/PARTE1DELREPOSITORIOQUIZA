@@ -98,6 +98,7 @@ demostrando que la información tiene un peso físico real en el tejido del univ
 4. Carroll, S. (2010). *From Eternity to Here: The Quest for the Ultimate Theory of Time*.
 5. Susskind, L. (2014). *The Theoretical Minimum: Entanglement and Holography*.
 
+---
 
 # Perspectivas Avanzadas de la Entropía: Información, Cuántica y Microestados
 
