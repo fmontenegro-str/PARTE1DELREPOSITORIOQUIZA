@@ -1,0 +1,94 @@
+# Segunda Ley de la Termodinámica — Definición, Ecuaciones y Entropía
+
+## 1. Definición de la Segunda Ley de la Termodinámica
+
+La **Segunda Ley de la Termodinámica** establece que:
+
+> **En todo proceso espontáneo, la entropía total del universo aumenta.**  
+> \[
+\Delta S_{\text{universo}} > 0
+\]
+
+Y para procesos reversibles:
+\[
+\Delta S_{\text{universo}} = 0
+\]
+
+Esta ley determina la **dirección natural en que ocurren los procesos**, complementando la Primera Ley (conservación de la energía).
+
+---
+
+## 2. Ecuaciones Fundamentales
+
+### ✔ Definición de entropía (proceso reversible)
+\[
+dS = \frac{\delta Q_{\text{rev}}}{T}
+\]
+
+Integrando entre dos estados:
+\[
+\Delta S = \int \frac{\delta Q_{\text{rev}}}{T}
+\]
+
+### ✔ Desigualdad de Clausius
+Para cualquier ciclo cerrado:
+\[
+\oint \frac{\delta Q}{T} \le 0
+\]
+
+Para procesos irreversibles:
+\[
+\Delta S \ge \int \frac{\delta Q}{T}
+\]
+
+### ✔ Balance de entropía del universo
+\[
+\Delta S_{\text{universo}} 
+= \Delta S_{\text{sistema}} 
++ \Delta S_{\text{alrededores}}
+\]
+
+---
+
+## 3. Entropía: Sistema, Alrededores y Universo
+
+### 🔸 Entropía del sistema
+Cantidad de estado que mide el cambio asociado a calor reversible:
+\[
+dS = \frac{\delta Q_{\text{rev}}}{T}
+\]
+
+### 🔸 Entropía de los alrededores (entorno)
+Cuando el sistema intercambia calor \(Q\) con un ambiente a temperatura constante \(T_{\text{bath}}\):
+\[
+\Delta S_{\text{alrededores}} = \frac{Q}{T_{\text{bath}}}
+\]
+
+### 🔸 Entropía del universo
+Es la suma que determina la espontaneidad de un proceso:
+\[
+\Delta S_{\text{universo}} = 
+\Delta S_{\text{sistema}} + 
+\Delta S_{\text{alrededores}}
+\]
+
+- Si \(\Delta S_{\text{universo}} > 0\): proceso espontáneo  
+- Si \(\Delta S_{\text{universo}} = 0\): proceso reversible  
+- Si \(\Delta S_{\text{universo}} < 0\): imposible espontáneamente  
+
+---
+
+## 4. Entropía en términos estadísticos (Boltzmann)
+
+La mecánica estadística da una interpretación microscópica:
+
+\[
+S = k_{\mathrm{B}} \ln W
+\]
+
+Donde:
+- \(S\): entropía  
+- \(k_{\mathrm{B}}\): constante de Boltzmann  
+- \(W\): número de microestados compatibles con el macroestado  
+
+---
