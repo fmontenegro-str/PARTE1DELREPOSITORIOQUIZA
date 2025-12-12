@@ -156,6 +156,254 @@ Para comprender las fórmulas anteriores, es esencial definir con precisión qu�
 $$S = k \ln \Omega$$
 
 ---
+# Segunda Ley de la Termodinámica — Definición, Ecuaciones, Entropía e Interpretación Química
+
+## 1. Definición de la Segunda Ley de la Termodinámica
+
+La Segunda Ley de la Termodinámica establece que:
+
+> **En todo proceso espontáneo, la entropía total del universo aumenta.**
+
+$$
+\Delta S_{\text{universo}} > 0
+$$
+
+Para procesos reversibles:
+
+$$
+\Delta S_{\text{universo}} = 0
+$$
+
+Esta ley define la **dirección natural** en la que los procesos ocurren.
+
+---
+
+## 2. Ecuaciones Fundamentales
+
+### ✔ Definición de entropía (proceso reversible)
+
+$$
+dS = \frac{\delta Q_{\text{rev}}}{T}
+$$
+
+Integrando entre dos estados:
+
+$$
+\Delta S = \int \frac{\delta Q_{\text{rev}}}{T}
+$$
+
+---
+
+### ✔ Desigualdad de Clausius
+
+Para un ciclo termodinámico:
+
+$$
+\oint \frac{\delta Q}{T} \le 0
+$$
+
+Para procesos irreversibles:
+
+$$
+\Delta S \ge \int \frac{\delta Q}{T}
+$$
+
+---
+
+### ✔ Balance de entropía del universo
+
+$$
+\Delta S_{\text{universo}} =
+\Delta S_{\text{sistema}} +
+\Delta S_{\text{alrededores}}
+$$
+
+---
+
+## 3. Tipos de Entropía
+
+### 🔸 Entropía del sistema
+
+Cantidad de estado que depende del calor reversible:
+
+$$
+dS = \frac{\delta Q_{\text{rev}}}{T}
+$$
+
+---
+
+### 🔸 Entropía de los alrededores (entorno)
+
+Si el ambiente está a temperatura constante:
+
+$$
+\Delta S_{\text{alrededores}} = \frac{Q}{T_{\text{bath}}}
+$$
+
+---
+
+### 🔸 Entropía del universo
+
+Determina la espontaneidad:
+
+- Si  
+  $$
+  \Delta S_{\text{universo}} > 0
+  $$  
+  el proceso es espontáneo
+
+- Si  
+  $$
+  \Delta S_{\text{universo}} = 0
+  $$  
+  es reversible
+
+- Si  
+  $$
+  \Delta S_{\text{universo}} < 0
+  $$  
+  el proceso no puede ocurrir espontáneamente
+
+---
+
+## 4. Entropía Estadística (Boltzmann)
+
+Interpretación microscópica:
+
+$$
+S = k_{\mathrm{B}} \ln W
+$$
+
+- \( W \): número de microestados disponibles  
+- \( k_{\mathrm{B}} \): constante de Boltzmann  
+
+A más microestados, más desorden y mayor entropía.
+
+---
+
+## 5. Interpretación Física General
+
+- La entropía mide el **grado de desorden** o dispersión de energía.  
+- Sistemas aislados evolucionan hacia estados más probables ⇒ mayor entropía.  
+- La Segunda Ley introduce una **flecha del tiempo**: las cosas naturalmente se desordenan.
+
+---
+
+# 6. Interpretación Química de la Segunda Ley
+
+La Segunda Ley es fundamental en química para entender espontaneidad, equilibrio y termodinámica molecular.
+
+---
+
+## 🔹 6.1 Espontaneidad de Reacciones Químicas
+
+Una reacción química es espontánea cuando:
+
+$$
+\Delta S_{\text{universo}} > 0
+$$
+
+Ejemplo típico donde la entropía del sistema aumenta:
+
+$$
+\text{CaCO}_3(s) \rightarrow \text{CaO}(s) + \text{CO}_2(g)
+$$
+
+Aquí aparece un gas ⇒ mayor desorden ⇒ \( \Delta S_{\text{sistema}} > 0 \).
+
+---
+
+## 🔹 6.2 Entropía de los alrededores en reacciones
+
+Para una reacción a presión constante:
+
+$$
+\Delta S_{\text{alrededores}} = -\frac{\Delta H}{T}
+$$
+
+Interpretación:
+- Si \( \Delta H < 0 \) (exotérmica), los alrededores ganan entropía.  
+- Si \( \Delta H > 0 \) (endotérmica), los alrededores pierden entropía.
+
+Una reacción puede ser espontánea aunque \( \Delta S_{\text{sistema}} < 0 \) si \( -\frac{\Delta H}{T} \) es suficientemente grande.
+
+---
+
+## 🔹 6.3 Energía Libre de Gibbs (la más usada en química)
+
+Se usa para decidir espontaneidad sin evaluar explícitamente \( \Delta S_{\text{universo}} \):
+
+$$
+\Delta G = \Delta H - T \Delta S
+$$
+
+Criterio de espontaneidad:
+
+$$
+\Delta G < 0
+\quad \Longleftrightarrow \quad
+\Delta S_{\text{universo}} > 0
+$$
+
+Esto es lo que se usa en termodinámica química y bioquímica.
+
+---
+
+## 🔹 6.4 Equilibrio químico
+
+En equilibrio:
+
+$$
+\Delta G = 0
+$$
+
+$$
+\Delta S_{\text{universo}} = 0
+$$
+
+No hay tendencia neta a reaccionar en ninguna dirección.
+
+---
+
+## 🔹 6.5 Entropía microscópica en química
+
+- Más partículas ⇒ más microestados ⇒ mayor entropía  
+- Gases tienen más entropía que líquidos  
+- Líquidos tienen más entropía que sólidos  
+- Mezclas tienen mayor entropía que sustancias puras  
+
+Ejemplo interesante:
+
+$$
+\text{N}_2(g) + 3\text{H}_2(g) \rightarrow 2\text{NH}_3(g)
+$$
+
+Aunque disminuyen los moles gaseosos (entropía del sistema baja),  
+la reacción puede ser espontánea si es fuertemente exotérmica.
+
+---
+
+# 7. Fuentes Académicas Confiables
+
+- MIT OpenCourseWare – Termodinámica  
+- UC San Diego – *Entropy and the Second Law*  
+- NIST Chemistry WebBook  
+- Stanford Encyclopedia of Philosophy – Boltzmann  
+- Atkins & de Paula – *Physical Chemistry*  
+- Schroeder – *Thermal Physics*  
+- Chang & Goldsby – *Química* (McGraw-Hill)
+
+---
+
+# 8. Resumen Final
+
+**La Segunda Ley afirma que los procesos espontáneos aumentan la entropía total del universo.  
+En química, esta espontaneidad se evalúa usando la energía libre de Gibbs:**
+
+$$
+\Delta G < 0
+$$
+
 
 ## Referencias Académicas
 * Shannon, C. (1948). *A Mathematical Theory of Communication*. [cite_start]Bell System Technical Journal[cite: 19].
